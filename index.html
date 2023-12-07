@@ -4,35 +4,83 @@
         <meta charset="utf-8">
         <title>Home Page</title>
         <style>
-            body {
-                background-color: black;
-            }
-            h1 {
-                color: orange; text-align: left; vertical-align: top;
-            }
-            h3 {
-                color: green; text-align: left;
-            }
-            p {
-                color: white; text-align: left;
-            }
-            li {
-                color: lightgreen; text-align: left;
-            }
+   
+    h1 {
+            color: orange; text-align: middle; vertical-align: top;
+        }
+        h3 {
+            color: yellow; text-align: left;
+        }
+        p {
+            color: white; text-align: left;
+        }
+        li {
+            color: lightgreen; text-align: left;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 0.5em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #333;
+        }
+        header {
+            background-color: #8945e2;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #a075e6;
+            padding: 0.5em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
            
         </style>
     </head>
     <body>
-        <h1 align middle> Homepage del Piemonte</img></h1>
-        
-        <p>   
+        <header>
+            <h1 align="middle"> Homepage del Piemonte</img></h1>
+        </header>
+          
             <img src="img/mappa_piemonte.png.webp" align="right" height="800"> 
-            <ul>
-                <li><a href="ristoranti.html"><h3 align="middle">TOP 10 Ristotanti del Piemonte</h3></a><img src="img/ristorante-la-piazza.jpg" height="200" align="top"></li>
-                <li><a href="luoghistorici.html"><h3>Luoghi Storici</h3></a><img src="img/low-angle-view-of-statue-of-mole-antonelliana-royalty-free-image-1667224246.jpg" height="200" align="top"></li>
-                <li><a href="attivita.html"><h3>Attività da fare</h3><img src="img/c14aa6_2de39384c76a4a2184f0591eb6a511f7_mv2.jpg" height="200" align="top"></li>
-            </ul>
-        </p>
+        <nav>
+                <a href="ristoranti.html"><h3 align="middle">TOP 10 Ristotanti del Piemonte</h3></a>
+                <a href="luoghistorici.html"><h3>Luoghi Storici</h3></a>
+                <a href="attivita.html"><h3>Attività da fare</h3>   
+        </nav>
+        <section>
+            <p>
+                Il Piemonte è una regione ricca di edifici storici, ma anche di attività suggestive da non perdersi e di ristoranti spettacolari (per i più golosi come me).
+            </p>
+         </section>
     </body>
 </html>
  
