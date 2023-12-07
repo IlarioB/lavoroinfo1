@@ -10,7 +10,7 @@ h4 {
     color: lightcoral;
 }
 p {
-    color:white;
+    color:white; margin-top: 25px; margin-bottom: 25px; margin-right: 75px; margin-left: 40px;
 }
 li {
     color: lightgreen; text-align: left;
@@ -48,5 +48,8 @@ td {
 }
 img {
     align: center;
+}
+a {
+    text-decoration: none;
 }
 </style>
