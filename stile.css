@@ -6,8 +6,11 @@ h1 {
 h3 {
     color: yellow; text-align: left;
 }
+h4 {
+    color: lightcoral;
+}
 p {
-    color: white; text-align: left;
+    color:white;
 }
 li {
     color: lightgreen; text-align: left;
@@ -56,6 +59,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+table {
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+img {
+    align: center;
 }
    
 </style>
